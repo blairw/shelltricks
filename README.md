@@ -2,9 +2,6 @@
 
 This is just my notebook of useful tricks for the UNIX/Linux shell.
 
-Table of Contents
-=================
-
 * [shelltricks](#shelltricks)
    * [(1) Documents and Multimedia](#1-documents-and-multimedia)
       * [Convert DOCX to PDF](#convert-docx-to-pdf)
