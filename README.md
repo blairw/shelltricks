@@ -8,7 +8,7 @@ Table of Contents
 * [shelltricks](#shelltricks)
    * [(1) Documents and Multimedia](#1-documents-and-multimedia)
       * [Convert DOCX to PDF](#convert-docx-to-pdf)
-   * [Remove the first 15 minutes of a video file](#remove-the-first-15-minutes-of-a-video-file)
+      * [Remove the first 15 minutes of a video file](#remove-the-first-15-minutes-of-a-video-file)
       * [Merge audio and video streams](#merge-audio-and-video-streams)
    * [(2) System Admin](#2-system-admin)
       * [List of folders by size](#list-of-folders-by-size)
@@ -32,7 +32,7 @@ The use of `soffice` requires LibreOffice, but then this should work:
 soffice --headless --convert-to pdf:writer_pdf_Export "Blair Wang PhD Thesis rev03.docx"
 ```
 
-## Remove the first 15 minutes of a video file
+### Remove the first 15 minutes of a video file
 
 ```bash
 ffmpeg -ss 00:15:00.000 \
