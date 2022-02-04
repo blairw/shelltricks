@@ -1,6 +1,6 @@
 # shelltricks
 
-This is just my notebook of useful tricks for the UNIX/Linux shell.
+This is just my notebook of useful tricks for the UNIX/Linux command line shell / terminal.
 
 * [shelltricks](#shelltricks)
    * [(1) Documents and Multimedia](#1-documents-and-multimedia)
