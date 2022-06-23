@@ -6,9 +6,11 @@
 #   You might consider `ln -s` symlinking the folder somewhere if you
 #   need to get rid of the spacebars...
 
+# Dependencies - `brew install rename`
+
 # Usage - Run from the folder you want to execute on.
 #   e.g., 
-#   ~/00blair/gitrepos/shelltricks/tricks/rename-folders-then-unrename.sh $(pwd)
+#   ~/00blair/gitrepos/shelltricks/scripts/rename-folders-then-unrename.sh $(pwd)
 
 for i in $(find "$1" -type d -depth 1 | sort -r);
 do
