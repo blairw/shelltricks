@@ -21,6 +21,14 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## (1) Documents and Multimedia
 
+### Add 2px border
+
+```
+convert -border 2x2 -bordercolor '#999999' example.png example_border.png
+```
+
+From https://github.com/arp242/border/
+
 ### Convert DOCX to PDF
 
 The use of `soffice` requires LibreOffice, but then this should work:
