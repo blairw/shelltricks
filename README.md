@@ -2,23 +2,6 @@
 
 This is just my notebook of useful tricks for the UNIX/Linux command line shell / terminal.
 
-* [shelltricks](#shelltricks)
-   * [(1) Documents and Multimedia](#1-documents-and-multimedia)
-      * [Convert DOCX to PDF](#convert-docx-to-pdf)
-      * [Remove the first 15 minutes of a video file](#remove-the-first-15-minutes-of-a-video-file)
-      * [Merge audio and video streams](#merge-audio-and-video-streams)
-   * [(2) System Admin](#2-system-admin)
-      * [List of folders by size](#list-of-folders-by-size)
-      * [Use rsync with specific SSH port](#use-rsync-with-specific-ssh-port)
-      * [Find details for currently-running process](#find-details-for-currently-running-process)
-   * [(3) Specific to macOS](#3-specific-to-macos)
-      * [Copy the current directory](#copy-the-current-directory)
-      * [Remove all the .DS_Store](#remove-all-the-ds_store)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
-
-------
-
 ## (1) Documents and Multimedia
 
 ### Add 2px border
@@ -55,6 +38,15 @@ ffmpeg -i video_only.mp4 -i audio_only.m4a -c:v libx264 -c:a aac output_merged.m
 ```
 
 ## (2) System Admin
+
+### Find all files smaller than 16KB
+
+```zsh
+find . -type f -size -16k
+```
+
+More info: https://superuser.com/a/204571
+
 
 ### List of folders by size
 
