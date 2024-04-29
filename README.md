@@ -4,6 +4,13 @@ This is just my notebook of useful tricks for the UNIX/Linux command line shell 
 
 ## (1) Documents and Multimedia
 
+### Convert HEIC to JPEG
+
+```bash
+sudo apt install libheif-examples
+heif-convert -q 60 IMG_1234.HEIC IMG_1234.jpeg
+```
+
 ### Add 2px border
 
 ```
