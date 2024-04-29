@@ -27,6 +27,12 @@ The use of `soffice` requires LibreOffice, but then this should work:
 soffice --headless --convert-to pdf:writer_pdf_Export "Blair Wang PhD Thesis rev03.docx"
 ```
 
+If you need to catch multiple files, sometimes you cannot put the wildcard in that end part there, try this instead:
+
+```bash
+find . -type f -name "*.doc" -exec soffice --headless --convert-to pdf:writer_pdf_Export {} \;
+```
+
 ### Remove the first 15 minutes of a video file
 
 ```bash
