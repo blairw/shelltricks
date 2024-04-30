@@ -52,6 +52,21 @@ ffmpeg -i video_only.mp4 -i audio_only.m4a -c:v libx264 -c:a aac output_merged.m
 
 ## (2) System Admin
 
+### Copy the current directory
+
+Simply:
+
+```bash
+# Mac
+pwd | tr -d '\n' | pbcopy
+
+# Linux
+pwd | tr -d '\n' | xclip -selection clipboard
+
+# Windows
+$pwd.Path | Set-Clipboard
+```
+
 ### Find all files smaller than 16KB
 
 ```zsh
@@ -96,15 +111,6 @@ ps -ef | grep rclone
 
 ## (3) Specific to macOS
 
-### Copy the current directory
-
-Simply:
-
-```bash
-pwd | tr -d '\n' | pbcopy
-```
-
-Then you can <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd> to it in Finder.
 
 ### Remove all the .DS_Store
 
