@@ -52,9 +52,17 @@ ffmpeg -i video_only.mp4 -i audio_only.m4a -c:v libx264 -c:a aac output_merged.m
 
 ## (2) System Admin
 
-### Copy the current directory
+### List all files (including hidden files) in current directory
 
-Simply:
+```bash
+# bash/zsh (Mac/Linux)
+ls -lah
+
+# Windows Powershell
+gci -fo
+```
+
+### Copy the current directory
 
 ```bash
 # Mac
