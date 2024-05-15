@@ -52,6 +52,15 @@ ffmpeg -i video_only.mp4 -i audio_only.m4a -c:v libx264 -c:a aac output_merged.m
 
 ## (2) System Admin
 
+### Mass unzip zip files each into their own folder/directory
+
+```bash
+for file in *.zip; do unzip "$file" -d "${file%.zip}"; done
+```
+
+Credits to Jeff Fisher and Peter Flynn: https://stackoverflow.com/a/49856874
+
+
 ### List all files (including hidden files) in current directory
 
 ```bash
