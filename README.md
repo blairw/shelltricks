@@ -4,6 +4,10 @@ This is just my notebook of useful tricks for the UNIX/Linux command line shell 
 
 ## (1) Documents and Multimedia
 
+### PDF things
+
+See https://github.com/blairw/pdfworks
+
 ### Convert HEIC to JPEG
 
 ```bash
